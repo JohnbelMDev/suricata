@@ -30,6 +30,8 @@ def init_logger():
     else:
         logging.basicConfig(
             level=logging.INFO,
+            level = logging.WARNING 
+
             format="%(asctime)s - <%(levelname)s> - %(message)s")
 
 def main():
